@@ -8,7 +8,7 @@ const Register = () => {
       name: e.target.name.value,
       age: e.target.age.value,
     };
-    await axios.post('https://fsd-2edc.onrender.com/users', user);
+    await axios.post('https://fsd-cseds-a-1.onrender.com/users', user);
     alert('User Registered Successfully');
   };
 

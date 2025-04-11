@@ -9,7 +9,7 @@ const View = () => {
   }, []);
 
   const viewdata = async () => {
-    const res = await axios.get('https://fsd-2edc.onrender.com/users/');
+    const res = await axios.get('https://fsd-cseds-a-1.onrender.com/users');
     setUsers(res.data);
   };
 
